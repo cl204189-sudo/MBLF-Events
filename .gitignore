@@ -52,3 +52,10 @@ app.*.map.json
 
 # VS Code
 # .vscode/
+
+# Configuracao privada da API
+API_MBLF_EVENTS/src/main/resources/application.properties
+
+# Arquivos gerados pelo Spring Boot
+**/target/
+**/.gradle/
