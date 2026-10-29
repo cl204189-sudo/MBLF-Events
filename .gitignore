@@ -1,0 +1,54 @@
+
+# Arquivos temporarios
+*.class
+*.log
+*.pyc
+*.swp
+*.tmp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Spring Boot / Java
+target/
+.gradle/
+
+# Arquivos confidenciais
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+
+# Symbolication / Obfuscation
+app.*.symbols
+app.*.map.json
+
+# VS Code
+# .vscode/
